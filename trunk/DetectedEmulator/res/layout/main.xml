@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+	<Button android:text="@string/Check" android:id="@+id/Check" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/SecSet"/>
+		        <TextView android:text="ANDROID_ID" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/Build"/>
+		        <TextView android:text="Build" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/Properties"/>
+		        <TextView android:text="Properties" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/Vibrator"/>
+		        <TextView android:text="Vibrator" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/LocationManager"/>
+		        <TextView android:text="LocationManager" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/TelephonyManager"/>
+		        <TextView android:text="TelephonyManager" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/Network"/>
+		        <TextView android:text="Network Address" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/Log"/>
+		        <TextView android:text="Log" android:padding="3dip"/>
+	    	</TableRow>
+			<TableRow>
+		        <TextView android:text="@string/unknow" android:id="@+id/file"/>
+		        <TextView android:text="Files" android:padding="3dip"/>
+	    	</TableRow>
+			<EditText android:textSize="10dip" android:editable="false" android:id="@+id/infoExtra" />
+		</TableLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DetectedEmulator</string>
+    <string name="Check">Check</string>
+
+    <string name="unknow">Unknow</string>
+    <string name="emu">Emulator</string>
+    <string name="real">Real</string>
+</resources>
